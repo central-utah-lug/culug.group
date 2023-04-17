@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<div class="feature"{% if feature_image %} style="background-image: url(https://raw.githubusercontent.com/central-utah-lug/culug.group/main/_images/culug.png)"{% endif %}>
+  <div class="container  typeset">
+    {{ feature_text | markdownify }}
+  </div>
+</div>
+
+<main class="main  container">
+
+  <article class="article  article--page  content  typeset">
+
+    <h1>{{ page.title }}</h1>
+
+    {{ content }}
+
+  </article>
+
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+
+</main>
+
+{% include site-footer.html %}
