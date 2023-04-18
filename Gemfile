@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.9.3"
+gem "jekyll", "~> 3.8.6"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
@@ -33,4 +33,4 @@ end
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
 # Custom Gemfile stuff
-gem "alembic-jekyll-theme", git: 'https://github.com/daviddarnes/alembic.git', ref: '18675fc841397c8a5bee01ddf9cfea257895ec58'
+gem 'alembic-jekyll-theme', '= 3.1'
