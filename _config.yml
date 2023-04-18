@@ -30,6 +30,7 @@ theme: jekyll-remote-theme
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag 
 
 plausible_analytics: culug.group
 # Exclude from processing.
