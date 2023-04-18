@@ -4,7 +4,7 @@ layout: default
 
 {% include site-header.html %}
 
-<div class="feature"{% if feature_image %} style="background-image: url(https://raw.githubusercontent.com/central-utah-lug/culug.group/main/_images/culug.png)"{% endif %}>
+<div class="feature" style="background-image: url(https://github.com/central-utah-lug/culug.group/raw/main/src/_images/culug.png)">
   <div class="container  typeset">
     {{ feature_text | markdownify }}
   </div>
@@ -15,6 +15,10 @@ layout: default
   <div class="content">
 
     <article class="article  article--page  typeset">
+    <br>
+    Central Utah Linux/Unix User Group (CULUG) is a technology-focused user group supporting Linux, Unix (i.e. MacOS) or Unix-like technologies.
+    The group is intended to serve as a casual meeting space for people interested in technology in the Central Utah area.
+
 
       {% if paginator.posts %}
         {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
