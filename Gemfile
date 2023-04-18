@@ -33,4 +33,4 @@ end
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
 # Custom Gemfile stuff
-gem "alembic-jekyll-theme", '~> 4.0.0'
+gem "alembic-jekyll-theme", git: 'https://github.com/daviddarnes/alembic.git', ref: '18675fc841397c8a5bee01ddf9cfea257895ec58'
