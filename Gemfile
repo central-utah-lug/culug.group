@@ -33,4 +33,4 @@ end
 gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
 # Custom Gemfile stuff
-gem "alembic-jekyll-theme", '~> 4.1'
+gem "alembic-jekyll-theme", '~> 4.0.0'
