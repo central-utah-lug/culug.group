@@ -25,12 +25,39 @@ url: "https://culug.group" # the base hostname & protocol for your site, e.g. ht
 github_username: central-utah-lug
 
 # Build settings
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- alembic-jekyll-theme.gemspec
+- .jekyll-cache
+
 markdown: kramdown
 theme: jekyll-remote-theme 
 plugins:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
   - jekyll-feed
+  - jekyll-commonmark
+  - jekyll-include-cache
+  - jemoji
   - jekyll-remote-theme
-  - jekyll-seo-tag 
+
+remote_theme: daviddarnes/alembic@main
+
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: America/Denver # Timezone for blog posts and alike
 
 plausible_analytics: culug.group
 # Exclude from processing.
@@ -65,5 +92,3 @@ navigation_footer:
   url: /venue/
 - title: contact 
   url: /contact/
-
-feature_image: _images/culug.png

@@ -34,4 +34,4 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
 # Custom Gemfile stuff
 gem "jekyll-remote-theme"
-gem "jekyll-seo-tag"
+gem "rubyzip"
