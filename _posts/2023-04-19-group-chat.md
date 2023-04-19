@@ -1,7 +1,7 @@
 ---
-layout: page
-title: contact
-permalink: /contact/
+layout: post
+title:  "Group Chat now Available"
+categories: group chat 
 ---
 
 If you are interested in joining the Central Utah Linux/Unix User Group chat, there are multiple options that are bridged together:
@@ -23,10 +23,3 @@ ssh chat.culug.group
 Use the following invite to join the CULUG Discord instance:
 
 https://discord.gg/uU7KxrRe
-
-
-## Email:
-
-For more information or for any questions please reach out:
-
-[contact [at] culug.group](contact@culug.group)
