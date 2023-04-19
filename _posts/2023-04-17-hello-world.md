@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello, World!"
-date:   2023-04-17 13:15:10 -0500
+slug: hello-world
 categories: intro hello
 ---
 
