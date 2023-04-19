@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Group Chat now Available"
+title:  "Group Chat Now Available"
 slug: group-chat
 categories: group chat 
 ---
