@@ -22,8 +22,7 @@ ssh chat.culug.group
 
 Use the following invite to join the CULUG Discord instance:
 
-https://discord.gg/uU7KxrRe
-
+https://discord.gg/KEBCqdANz4
 
 ## Email:
 
