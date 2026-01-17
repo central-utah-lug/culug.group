@@ -76,11 +76,13 @@ plausible_analytics: culug.group
 navigation_header:
 - title: home
   url: /
-- title: about 
+- title: about
   url: /about/
-- title: venue 
+- title: venue
   url: /venue/
-- title: contact 
+- title: meshtastic
+  url: /meshtastic/
+- title: contact
   url: /contact/
 
 navigation_footer:

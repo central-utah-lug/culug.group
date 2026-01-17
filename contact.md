@@ -45,3 +45,7 @@ We use [Linen](https://linen.dev) to make meeting notes publicly parsable:
 For more information or for any questions please reach out via email:
 
 centralutahlug [at] heywoodlh.io
+
+## Meshtastic:
+
+See [Meshtastic docs](https://culug.group/meshtastic) for off-grid communication capabilities if geographically near Ephraim, UT.
